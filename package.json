@@ -1,0 +1,22 @@
+{
+  "name": "taller-api-estudiantes",
+  "version": "1.0.0",
+  "description": "taller progweb2",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "npx nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "debug": "node --inspect index.js"
+  },
+  "author": "Cristian Erazo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "joi": "^17.12.3",
+    "moment": "^2.30.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
